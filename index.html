@@ -3,63 +3,58 @@
     <head>
         <meta charset="UTF-8">
         <title>Welcome to Sparks Bank</title>
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-        <div class="top">
-            <div class="header">
-                <p id="logo">THE SPARKS FOUNDATION BANK</p>
-                </div>  
-               <div class="links">
-                 <ul>
-                <li><a href="recipes/pan.html">Home</a></li>
-                <li><a href="recipes/pan.html">Customers</a></li>
-                <li><a href="recipes/pan.html">Transactions</a></li>  
-                <li><a href="recipes/pan.html">History</a></li> 
-            </ul>
-            </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">THE SPARKS FOUNDATION BANK</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Customers.html">Customers</a>
+            </li>
+          </ul>
         </div>
+    </nav>
+        <header>
+        
           
           <div class="first-box">
             <div class="left">
           <h1 class="gbox">TSF BANK</h1>
-          <p class="first">Money Transfer Website</p>
+          <p>Money Transfer Website</p>
+          <p class="first"><img src="image.jpg" alt="" style="width:50%; margin-top:10%;">  </p> 
         </div>
-        <div class="right">
-            <div class="box" >
-                <p class="second"><img src="statics/PngItem_5146697.png" alt="" style="width:50%; margin-top:50%;"></p>
-            </div>
-        </div>
+       
           </div>
           </header>
 
-          <main>
-          <div class="second-box">
-        <h2>Online Facilities</h2>
-        <div class="second image-box">
-            <div class="boxes">
-            <div class="square"><img src="statics/PngItem_5146697.png" alt="" style="width:50%; margin-top:50%;"></div>
-            <p>Here, you can watch every customer of the bank.</p>
-            <button class="first-button"><a href="Customers.html">Customers</a></button>
+    <footer>
+        <hr>
+        <div class="row text-center">
+          <div class="col-md-6">
+            <p>This project is made by SANDEEP REDDY</p>
+            
           </div>
-        <div class="boxes">
-            <div class="square"></div>
-            <p>Here, you can send money from your bank account.</p>
-            <button class="first-button"><a href="Transfer Money.html">Transfer Money</a></button>
-
+          <div class="col-md-6 text-center">
+              <ul class="social-icons">
+                Contact Me:
+                <li><a target="_blank" class="github" href="https://github.com/SSANDEEPR"><i class="fab fa-github fa-2x"></i></a></li>
+                
+                <li><a target="_blank" class="linkedin" href="https://www.linkedin.com/in/saisandeepreddy.s/"><i class="fab fa-linkedin fa-2x"></i></a></li>   
+              </ul>
+          </div>
         </div>
-        <div class="boxes">
-            <div class="square"></div>
-            <p>Here, you can check the balance in your account.</p>
-            <button class="first-button"><a href="Check Balance.html">Check Balance</a></button>
-        </div>
-        </div>
-    </main>
-  
-     
-        <footer>
-            <p>Copyright @ THE SPARKS FOUNDATION 2022</p>
-        </footer>
+      </footer>
     </body>
 </html>
